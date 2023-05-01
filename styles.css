@@ -1,0 +1,160 @@
+
+body,html,a {
+    height: 100%;
+}
+.p1 {
+    height :500px;
+    overflow :hidden;
+    object-fit: cover;
+}
+.slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+.p1 { opacity : 0.9;
+position: relative;}
+.mySlides {
+    display: none;
+  }
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    height: 30px;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }  
+  .dot,.dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .container .content {
+    position: absolute; /* Position the background text */
+    top: 335px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 93.5%; /* Full width */
+    padding :20px;/* Some padding */
+    padding-left :50px;
+  }
+  a{
+    position: relative;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom :50px;
+    margin-left :40px;
+    text-align: center;
+  }
+.pic,.ava,.info  {
+    position: relative;
+    width: calc(280px - 30px);
+    height : calc(400px - 30px);
+    box-sizing: content-box;
+    float : left;
+    margin-left:60px ;
+    margin-top :10px;
+    border-radius: 10px;
+    padding-bottom: 50px;}
+h2 {
+    font-family: fantasy;
+    text-align: center;
+    color:rgb(25, 112, 76);
+}
+.ava:hover .overlay {
+    opacity: 1;
+  }
+.myinfo {
+    margin-left:38%;
+    width : 50%;
+}
+h3 {
+    text-align: center;
+    color:rgb(19, 71, 19);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size :20px;
+}
+.x {
+  padding-bottom :50px;
+  font-style:oblique;
+}
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 120%;
+  width: auto;
+  margin-top: -22px;
+  padding: 100px;
+  color: rgb(17, 87, 54);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  height: 30px;
+}
+.next1 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.pic {
+  position: absolute;
+}
+.content {
+  float:left;
+}
+.cake {
+  width :20%;
+  margin-left:40%;
+}
